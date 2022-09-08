@@ -1,19 +1,20 @@
+import json
+import os
+import re
 import signal
-import psutil
 import socket
-import pycurl
+import subprocess
+import sys
 import time
 import zipfile
-import re
-import os
-import sys
-import json
-import subprocess
-import select
-import shutil
-from urllib import urlencode, quote
 from StringIO import StringIO
 from time import sleep
+from urllib import urlencode
+
+import psutil
+import pycurl
+import select
+
 
 def is_json(myjson):
   try:

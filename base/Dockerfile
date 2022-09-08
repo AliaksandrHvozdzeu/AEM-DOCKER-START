@@ -24,7 +24,8 @@ RUN yum -y --enablerepo=centosplus update \
 # Copy required build media
 COPY ./AEM_6.5_Quickstart.jar /opt/aem/AEM_6.5_Quickstart.jar
 COPY ./license.properties /opt/aem/license.properties
-COPY ./oak-run-*.jar /opt/aem/oak-run.jar
+COPY ./oak-run-1.44.0.jar /opt/aem/oak-run.jar
+COPY ./aem-service-pkg-6.5.14.0.zip /opt/aem/crx-quickstart/install/aem-service-pkg-6.5.14.0.zip
 
 # Extract AEM
 WORKDIR /opt/aem
