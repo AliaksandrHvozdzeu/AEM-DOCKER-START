@@ -37,11 +37,3 @@ Starting and stopping containers preserves AEM content. Images need to be rebuil
 ## Other tools
 
 - [aem-front](https://github.com/kevinweber/aem-front) can be used to significantly speed-up your AEM front-end development workflow, as code changes will hot-reload in your browser.
-
-## Credits
-
-Inspiration and code examples are taken from the following projects:
-
-- [https://github.com/AdobeAtAdobe/aem_6-1_docker](https://github.com/AdobeAtAdobe/aem_6-1_docker)
-- [https://hub.docker.com/r/ggotti/aem-base](https://hub.docker.com/r/ggotti/aem-base)
-- [https://github.com/adfinis-sygroup/aem-docker](https://github.com/adfinis-sygroup/aem-docker)
